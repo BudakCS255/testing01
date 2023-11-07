@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Welcome to My Website</title>
+    <title>Welcome to Bilik 4312</title>
 </head>
 <body>
-    <h1>Welcome to My Website!</h1>
-    <p>This is a simple welcome page hosted on Digital Ocean.</p>
+    <h1>Welcome to Bilik 4312!</h1>
+    <p>Kita ada Afnan, Fauzan dan Zuhair.</p>
 </body>
 </html>
