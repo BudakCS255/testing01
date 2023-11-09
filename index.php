@@ -10,9 +10,10 @@ $conn = new mysqli($dbHost, $dbUser, $dbPass, $dbName);
 
 // Check the connection
 if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+    echo "Mission Failed: Connection failed: " . $conn->connect_error;
+} else {
+    echo "Mission Accomplished: Connected successfully to the database!";
 }
 
-echo "Connected successfully to the database!";
 $conn->close();
 ?>
