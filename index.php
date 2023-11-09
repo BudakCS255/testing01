@@ -1,6 +1,6 @@
 <?php
 // Database configuration
-$dbHost = '127.0.0.1'; // Change to the actual database host if it's not on the same server
+$dbHost = 'localhost'; // Change to the actual database host if it's not on the same server
 $dbUser = 'root'; // Replace with your MySQL username
 $dbPass = ''; // Replace with your MySQL password
 $dbName = 'mywebsite_images'; // Replace with your MySQL database name
