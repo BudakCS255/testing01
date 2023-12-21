@@ -1,9 +1,9 @@
 <?php
 // Database configuration
-$dbHost = 'localhost'; // Change to the actual database host if it's not on the same server
-$dbUser = 'afnan'; // Replace with your MySQL username
-$dbPass = 'john_wick_77'; // Replace with your MySQL password
-$dbName = 'mywebsite_images'; // Replace with your MySQL database name
+$dbHost = 'localhost'; // Database host
+$dbUser = 'root'; // Database username
+$dbPass = ''; // Database password (empty for no password)
+$dbName = 'images'; // Database name
 
 // Attempt to connect to the database
 $conn = new mysqli($dbHost, $dbUser, $dbPass, $dbName);
