@@ -1,4 +1,8 @@
 <?php
+// Turn on error reporting for debugging
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
 // Database configuration
 $dbHost = 'localhost'; // Database host
 $dbUser = 'root'; // Database username
@@ -15,5 +19,6 @@ if ($conn->connect_error) {
     echo "Mission Accomplished: Connected successfully to the database!";
 }
 
+// Close the database connection
 $conn->close();
 ?>
