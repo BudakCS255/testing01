@@ -5,8 +5,8 @@ error_reporting(E_ALL);
 
 // Database configuration
 $dbHost = 'localhost'; // Database host
-$dbUser = 'root'; // Database username
-$dbPass = ''; // Database password (empty for no password)
+$dbUser = 'john'; // Database username
+$dbPass = 'john_wick_77'; // Database password (empty for no password)
 $dbName = 'images'; // Database name
 
 // Attempt to connect to the database
